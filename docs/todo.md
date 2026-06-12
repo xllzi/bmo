@@ -1,11 +1,5 @@
-- [ ] 项目初始化 — bun init，安装 @opentui/core、@opentui/react、music-metadata、react
-- [ ] 类型定义 — 定义 Track、Playlist、PlayerState 等核心类型
-- [ ] 音频引擎 — 实现 audio-engine.ts，封装 ffplay/mpg123 子进程（play/pause/stop/seek/volume）
-- [ ] 状态管理 — 实现 player/queue/library store
-- [ ] UI 布局 — 用 OpenTUI Box flexbox 搭建主界面骨架
-- [ ] NowPlaying + Controls — 实现播放信息展示和控制组件
-- [ ] Playlist — 播放列表展示和管理
-- [ ] Scanner + Metadata — 本地音乐扫描和元数据解析
-- [ ] Search — 搜索功能
-- [ ] 快捷键 — 全局键盘绑定
-- [ ] 在线源 — 后续接入
+## TOFIX
+- [ ] ProgressBar组件不会在播放时实时改变
+- [ ] audio-engine不关联状态progress, 暂停再播放导致重新播放
+- [ ] ffplay进程终止后，状态stopped应变为true
+
